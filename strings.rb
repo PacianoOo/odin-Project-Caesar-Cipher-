@@ -9,7 +9,6 @@ def substrings(string, dictionary)
         result[word] = lowered_string.scan(word).length if lowered_string.include?(word)
     end
     puts result
-    puts input_string.inspect
 end
 
-substrings("BELOW BELOW DOWN HORN",dictionary)
+substrings("below",dictionary)

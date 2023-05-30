@@ -8,7 +8,6 @@ def stock_picker(prices)
         if price_1 < low_price
             low_price = price_1
             low_index = index
-            puts low_price
         end
         if price_1 - low_price > profit #comparing the highest profit we can get with the prices we have
             #puts low_price
